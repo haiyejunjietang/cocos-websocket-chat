@@ -16,5 +16,5 @@
 3. **广播**：后端收到后，转发给所有连接的客户端，前端更新消息列表  
 
 ### 核心代码位置
-- 前端WebSocket逻辑：[`scripts/` 文件夹](https://github.com/haiyejunjietang/cocos-websocket-chat/blob/main/scripts/ChatManager.ts)（包含连接、发送、广播的核心实现）  
-- 服务端广播逻辑：[`server-node/` 文件夹](https://github.com/haiyejunjietang/cocos-websocket-chat/blob/main/server-node/server.js)（Node.js实现的WebSocket服务）  
+- 前端WebSocket逻辑：[`scripts/`](https://github.com/haiyejunjietang/cocos-websocket-chat/blob/main/scripts/ChatManager.ts)（包含连接、发送、广播的核心实现）  
+- 服务端广播逻辑：[`server-node/`](https://github.com/haiyejunjietang/cocos-websocket-chat/blob/main/server-node/server.js)（Node.js实现的WebSocket服务）  
